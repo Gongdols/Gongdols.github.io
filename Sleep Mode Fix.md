@@ -1,3 +1,8 @@
+## 참고자료 출처
+* https://blog.naver.com/asksays/220154371240
+* https://community.wd.com/t/firmware-release-04-05-00-320-11-28-2017-discussion/217996/28
+* http://cdn.dealbada.com/data/editor/1608/f8dd49f14f4d4c8cd566862ad378682c_1470967882_6145.jpg
+
 ## 아래 명령어 실행
 ```
 chmod 644 /etc/init.d/atop & \
@@ -98,8 +103,3 @@ find / -name .wdmc -exec rm -rf {} \; & \
 find / -name .twonky -exec rm -rf {} \; & \
 find / -name .wdphotos -exec rm -rf {} \;
 ```
-
-## 참고자료
-* https://blog.naver.com/asksays/220154371240
-* https://community.wd.com/t/firmware-release-04-05-00-320-11-28-2017-discussion/217996/28
-* http://cdn.dealbada.com/data/editor/1608/f8dd49f14f4d4c8cd566862ad378682c_1470967882_6145.jpg
