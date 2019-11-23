@@ -9,6 +9,8 @@
 # 목 차
 * ## **Fix**
   * [**슬립 모드 안 되는 문제**](./Fix/Sleep&#32;Mode&#32;Fix.md)
+* ## **Network**
+  * [**대시보드 외부망 허용**](Network/대시보드&#32;외부망&#32;허용.md)
 * ## **Chroot Debian (펌웨어 변경 없이 Debian 사용)**
   * [**설치 방법**](./Chroot&#32;Debian/설치&#32;방법.md)
   * [**사용 방법**](./Chroot&#32;Debian/사용&#32;방법.md)
