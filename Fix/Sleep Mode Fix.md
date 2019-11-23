@@ -1,9 +1,9 @@
 ## 참고자료 출처
 * https://blog.naver.com/asksays/220154371240
 * https://community.wd.com/t/firmware-release-04-05-00-320-11-28-2017-discussion/217996/28
-* http://cdn.dealbada.com/data/editor/1608/f8dd49f14f4d4c8cd566862ad378682c_1470967882_6145.jpg
+* http://m.ppomppu.co.kr/new/bbs_view.php?id=nas&no=22708&page=1&keyword=675226
 
-## 아래 명령어 실행
+## 아래 명령어 `전체`를 복사하고 실행
 ```
 chmod 644 /etc/init.d/atop & \
 chmod 644 /etc/init.d/itunes & \
@@ -21,7 +21,8 @@ chmod 644 /etc/init.d/wdnotifierd & \
 chmod 644 /etc/init.d/wdphotodbmergerd & \
 chmod 644 /etc/init.d/winbind & \
 chmod 755 /CacheVolume/user-start & \
-nano /CacheVolume/user-start /etc/crontab /usr/local/sbin/monitorio.sh /etc/standby.conf
+nano /CacheVolume/user-start /etc/crontab /usr/local/sbin/monitorio.sh /etc/standby.conf ; \
+reboot
 ```
 
 ## 아래 내용 `user-start` 파일에 넣고 저장
@@ -96,7 +97,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 ## `standby.conf` 파일을 아래와 같이 수정
 * `standby_time`에 원하는 시간(분) 입력
 
-## reboot 후 아래 명령어 입력
+## reboot 후 아래 명령어 `전체`를 복사하고 실행
 ```
 find / -name .nflc_data -exec rm -rf {} \; & \
 find / -name .wdmc -exec rm -rf {} \; & \
