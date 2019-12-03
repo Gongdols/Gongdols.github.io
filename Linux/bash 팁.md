@@ -2,8 +2,9 @@
 * https://www.cyberciti.biz/faq/linux-list-all-environment-variables-env-command/
 * https://linuxize.com/post/how-to-set-and-list-environment-variables-in-linux/
 * https://askubuntu.com/questions/682120/what-does-colon-operator-in-a-bash-variable-expansion-var-temp3
+* https://www.tecmint.com/set-unset-environment-variables-in-linux/
 
-# 변수
+# 지역 변수
 **이 항에서는 메모리 상에서 변수를 다루는 방법을 설명한다.**
 
 시스템의 기본(default) 변수를 다루는 방법은 아래의 [기본 환경 변수](#기본%20환경%20변수)을 항을 참고하면 된다.
