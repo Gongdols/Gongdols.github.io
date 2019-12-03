@@ -1,20 +1,25 @@
-# 주요 참고자료 출처
-* https://blog.naver.com/asksays/220154371240
-* https://community.wd.com/t/repository-with-software-worked-on-v4-firmware/94532
+# **Index**
+* <details>
+    <summary>
+      <a href="./WD%20My&20Cloud&20Gen1"><b>WD My Cloud Gen 1</b></a>
+    </summary>
+    <p>
 
-# 장치 스펙
-* `Processor`: Mindspeed Comcerto C2000 (2 core, 650MHz)
-* `Memory`: 256 MB
+  * [**Fix**](./WD%20My%20Cloud%20Gen1/Fix)
+  * [**Network**](./WD%20My%20Cloud%20Gen1/Network)
+  * [**Chroot Debian (펌웨어 변경 없이 Debian 사용)**](./WD%20My%20Cloud%20Gen1/Chroot&20Debian)
+  * [**Apps**](./WD%20My%20Cloud%20Gen1/Apps)
+    </p>
+  </details>
 
-# 목 차
-* ## **Fix**
-  * [**슬립 모드 안 되는 문제**](./Fix/Sleep&#32;Mode&#32;Fix.md)
-* ## **Network**
-  * [**대시보드 외부망 허용**](Network/대시보드&#32;외부망&#32;허용.md)
-* ## **Chroot Debian (펌웨어 변경 없이 Debian 사용)**
-  * [**설치 방법**](./Chroot&#32;Debian/설치&#32;방법.md)
-  * [**사용 방법**](./Chroot&#32;Debian/사용&#32;방법.md)
-* ## **Apps**
-  * ### **transmission**
-    * [**설치 방법**](./Apps/transmission/설치&#32;방법.md)
-    * [**기타 팁**](Apps/transmission/기타&#32;팁.md)
+<!--
+<details>
+  <summary>
+    <a href="링크">제목</a>
+  </summary>
+  <p>
+
+내용
+  </p>
+</details>
+-->
